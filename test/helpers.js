@@ -10,16 +10,6 @@ const html = fs.readFileSync(
 	'utf-8'
 );
 
-const babelResult = babel.transformFileSync(
-	path.resolve(__dirname, '..', 'index.js'),
-	{
-		presets: ['env']
-	}
-);
-
-const src = babelResult.code;
-
 jsdom({
-	html,
-	src
+	html
 });

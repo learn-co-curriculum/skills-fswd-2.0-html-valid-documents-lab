@@ -1,6 +1,10 @@
 describe('index.html', () => {
 	it('contains an `p` nested inside a `div`', () => {
 		expect(
+			document.querySelectorAll('body').length,
+			'No `body` tag was found'
+		).to.be.above(0);
+		expect(
 			document.querySelector('body').outerHTML,
 			'No `h1` tag was found inside `body`'
 		).to.match(/<h1>[\s\S]*?<\/h1>/);
