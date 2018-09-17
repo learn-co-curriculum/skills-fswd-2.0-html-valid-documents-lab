@@ -36,7 +36,7 @@ Every example in this lab will be nested somewhere within `body`.
 
 #### 9) Add a `del` tag and an `ins` tag inside an `address` tag
 
-#### 10) Add a `blockquote` tag inside an `h3` tag inside a `section` tag
+#### 10) Add a `mark` tag inside an `h3` tag inside a `section` tag
 
 ## Conclusion
 
