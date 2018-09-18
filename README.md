@@ -1,5 +1,8 @@
 # Nested HTML Tags
 
+In this lab we’re going to get used to thinking about nesting so you really get
+the hang of it.
+
 ## Objective
 
 - Practice nesting HTML tags within each other
@@ -40,10 +43,15 @@ Every example in this lab will be nested somewhere within `body`.
 
 ## Conclusion
 
-There are many HTML tags, each with a specific purpose. Don't worry if some of
-these seem unfamiliar. You can always [check online][tags] to see how a tag is
-used before trying it. By writing tags within each other, web browsers can use
-our HTML to structure the content we see on a web page.
+The vast majority of tags on a page are nested in some way. Being able to
+translate English to nested tag structure is a critical skill for working in
+the front end.
+
+There are also many HTML tags, each with a specific purpose. Don't worry if some
+of these seem unfamiliar. You can always [check online][tags] to see how a tag
+is used before trying it. By nesting tags within each other, we are creating a
+mark up structure that web browsers can use to structure the content we see on a
+web page.
 
 The purpose of this lab is to show that this it is possible to have many layers
 of nested HTML.
