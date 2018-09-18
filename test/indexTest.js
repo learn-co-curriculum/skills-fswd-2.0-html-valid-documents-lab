@@ -58,7 +58,7 @@ describe('index.html', () => {
 		let aside = document.querySelector('aside');
 
 		expect(body, 'No `aside` tag was found').to.contain('aside');
-		expect(article, 'No `h4` tag was found inside an `aside` tag').to.contain(
+		expect(aside, 'No `h4` tag was found inside an `aside` tag').to.contain(
 			'h4'
 		);
 	});
