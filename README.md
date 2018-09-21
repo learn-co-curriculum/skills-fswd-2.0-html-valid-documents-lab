@@ -1,4 +1,4 @@
-# Nested HTML Tags
+# Writing Valid HTML Documents Lab
 
 To build our own websites, we'll need to start with creating a simple HTML file.
 In this lab we’re going to get used to writing HTML documents from scratch.
