@@ -1,10 +1,10 @@
 {
-  "name": "js-lab-template",
+  "name": "skills-fswd-2.0-html-valid-documents-lab",
   "version": "1.0.0",
-  "description": "A JavaScript lab for generating secure passwords",
+  "description": "Practice writing valid HTML documents",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options json=.results.json,list=-"
+    "test": "mocha -b --timeout 15000 -R mocha-multi --reporter-options json=.results.json,spec=-"
   },
   "keywords": [
     "JavaScript",
@@ -23,5 +23,10 @@
     "mocha": "5.2.0",
     "mocha-jsdom": "~1.1.0",
     "mocha-multi": "1.0.1"
+  },
+  "dependencies": {
+    "chai-as-promised": "^7.1.1",
+    "html-validator": "^3.0.6",
+    "w3c-validate": "0.0.2"
   }
 }
