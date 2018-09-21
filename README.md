@@ -1,60 +1,42 @@
 # Nested HTML Tags
 
-In this lab we’re going to get used to thinking about nesting so you really get
-the hang of it.
+To build our own websites, we'll need to start with creating a simple HTML file.
+In this lab we’re going to get used to writing HTML documents from scratch.
 
 ## Objective
 
-- Practice nesting HTML tags within each other
+- Practice writing valid HTML documents
 
 ## Instructions
 
-HTML tags can be nested within each other, allowing us to organize
-a web page's content and _mark up_ what things are stored inside.
+This lab will ask you to write multiple HTML files from scratch. Each challenge
+is in a separate HTML file. Work through the challenges one at a time and run
+`learn` to verify you've written a correct solution for each.
 
-Work through the challenges below one at a time, writing the solutions in
-`index.html`. Run `learn` to verify you've written a correct solution for each.
-If you would like to see your work as you go, use `httpserver` or open
-`index.html` to view the results of your work. Make sure to add text inside tags
-to see how each one modifies the displayed text.
+#### 1) Write the Minimum Required for a Valid HTML Document in `index-01.html`
 
-The `body` tag will always contain _all the displayed content_ of a web page.
-Every example in this lab will be nested somewhere within `body`.
+#### 2) Write `doctype`, `head`, and `title` tags in `index-02.html`
 
-#### 1) Add a `h1` tag inside the `body` tag
+#### 3) Write `doctype`, `head`, `title`, and `body` tags in `index-03.html`
 
-#### 2) Add a `li` tag inside a `ul` tag
+#### 4) Write `doctype`, `html`, `head`, `title`, and `body` tags in `index-04.html`
 
-#### 3) Add a `span` tag inside a `main` tag
+#### 5) Write `doctype`, `head`, `title`, and `body` tags in `index-05.html`
 
-#### 4) Add a `header` tag inside an `article` tag
+- Include a meta tag for the 'utf-8' character set
+- Include a meta tag for a description
+- Include a div tag inside body
+- Include a p tag inside body
 
-#### 5) Add an `h4` tag inside a `aside` tag
+#### 6) Remove All Optional Tags in `index-06.html`
 
-#### 6) Add a `strong` tag and an `em` tag inside a `p` tag
-
-#### 7) Add a `summary` tag inside a `details` tag
-
-#### 8) Add a `q` tag inside a `div` tag
-
-#### 9) Add a `del` tag and an `ins` tag inside an `address` tag
-
-#### 10) Add a `mark` tag inside an `h3` tag inside a `section` tag
+- Document is currently valid
 
 ## Conclusion
 
-The vast majority of tags on a page are nested in some way. Being able to
-translate English to nested tag structure is a critical skill for working in
-the front end.
-
-There are also many HTML tags, each with a specific purpose. Don't worry if some
-of these seem unfamiliar. You can always [check online][tags] to see how a tag
-is used before trying it. By nesting tags within each other, we are creating a
-mark up structure that web browsers can use to structure the content we see on a
-web page.
-
-The purpose of this lab is to show that this it is possible to have many layers
-of nested HTML.
+We often only need to write _one_ HTML document when starting a website. From
+the foundation of a valid HTML document, we can build any type of website we'd
+like.
 
 ## References
 

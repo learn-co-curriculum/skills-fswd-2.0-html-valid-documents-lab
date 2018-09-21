@@ -61,4 +61,26 @@ describe(file, () => {
 			"No 'title' tag was found"
 		).to.contain('title');
 	});
+
+	it('contains only doctype and title tags', () => {
+		expect(document.body.innerHTML).to.equal('');
+		expect(html, `An opening 'html' tag was found in ${file}`).to.not.include(
+			'<html>'
+		);
+		expect(html, `An opening 'html' tag was found in ${file}`).to.not.include(
+			'</html>'
+		);
+		expect(html, `An opening 'head' tag was found in ${file}`).to.not.include(
+			'<head>'
+		);
+		expect(html, `An opening 'head' tag was found in ${file}`).to.not.include(
+			'</head>'
+		);
+		expect(html, `An opening 'body' tag was found in ${file}`).to.not.include(
+			'<body>'
+		);
+		expect(html, `An opening 'body' tag was found in ${file}`).to.not.include(
+			'</body>'
+		);
+	});
 });
