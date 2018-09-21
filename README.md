@@ -32,6 +32,14 @@ is in a separate HTML file. Work through the challenges one at a time and run
 
 - Document is currently valid
 
+#### 7) Fix the Broken HTML in `index-07.html`
+
+#### 8) Fix the Broken HTML in `index-08.html`
+
+#### 9) Fix the Broken HTML in `index-09.html`
+
+#### 10) Fix the Broken HTML in `index-10.html`
+
 ## Conclusion
 
 We often only need to write _one_ HTML document when starting a website. From
