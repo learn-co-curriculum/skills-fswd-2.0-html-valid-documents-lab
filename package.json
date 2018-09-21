@@ -4,7 +4,7 @@
   "description": "Practice writing valid HTML documents",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 15000 -R mocha-multi --reporter-options json=.results.json,spec=-"
+    "test": "mocha -b --timeout 15000 -R mocha-multi --reporter-options json=.results.json,spec=-"
   },
   "keywords": [
     "JavaScript",
